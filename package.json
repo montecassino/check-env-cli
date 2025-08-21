@@ -1,11 +1,11 @@
 {
   "name": "gh-check-env-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to check for environment variables in a project with a Github actions workflow.",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "check-env": "dist/index.js"
+    "gh-check-env": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

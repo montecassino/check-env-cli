@@ -1,4 +1,4 @@
-# Check Env CLI
+# Github Check Env CLI
 
 A CLI tool to check for environment variables in a project and verify their existence in GitHub secrets.
 
@@ -7,13 +7,13 @@ A CLI tool to check for environment variables in a project and verify their exis
 You can install the CLI tool globally from npm:
 
 ```bash
-npm install -g check-env-cli
+npm install -g gh-check-env-cli
 ```
 
 Alternatively, you can install it as a dev dependency in your project:
 
 ```bash
-npm install --save-dev check-env-cli
+npm install --save-dev gh-check-env-cli
 ```
 
 ## Usage
