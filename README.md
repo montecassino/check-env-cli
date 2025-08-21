@@ -23,7 +23,7 @@ Once installed, you can run the `check-env` command from your terminal.
 ### As a global package
 
 ```bash
-check-env [options]
+gh-check-env [options]
 ```
 
 ### As a project dependency
@@ -32,14 +32,14 @@ You can add it to your `package.json` scripts:
 
 ```json
 "scripts": {
-  "check-env": "check-env --repo your-repo --owner your-owner"
+  "gh-check-env": "gh-check-env --repo your-repo --owner your-owner"
 }
 ```
 
 Then run it with:
 
 ```bash
-npm run check-env
+npm run gh-check-env
 ```
 
 ### Options
@@ -52,7 +52,7 @@ npm run check-env
 ### Example
 
 ```bash
-check-env --repo my-repo --owner my-username --token your-github-token
+gh-check-env --repo my-repo --owner my-username --token your-github-token
 ```
 
 This will scan the current directory for environment variables, check them against the secrets in the specified GitHub repository, and log the results to the console.
