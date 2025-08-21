@@ -1,0 +1,27 @@
+{
+  "name": "check-env-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to check for environment variables in a project.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "check-env": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
